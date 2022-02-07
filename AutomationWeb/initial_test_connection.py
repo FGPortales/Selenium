@@ -7,10 +7,12 @@ import time
 # from webdriver_manager.chrome import ChromeDriverManager
 # from selenium.webdriver.common.by import By
 
+'''first connection'''
 # driver = webdriver.Chrome(executable_path=r'C:\chromediver\chromedriver.exe')
 # driver.get('http://python.org')
 # driver.close()
 # ************************************************************************************
+'''Connection using service object'''
 # s = Service(ChromeDriverManager().install())
 # driver = webdriver.Chrome(service=s)
 # driver.maximize_window()
